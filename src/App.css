@@ -1,0 +1,697 @@
+body {
+  font-family: sans-serif;
+}
+.jb-nav {
+  position: relative;
+  z-index: 9;
+  background: transparent;
+}
+.jb-slider {
+  position: absolute;
+  top: 0px;
+  max-width: 100%;
+  height: 100vh;
+  width: 100%;
+}
+.jb-slider img {
+  min-height: 100%;
+}
+.slider-video {
+  width: 100%;
+  height: 100vh;
+}
+.cursor {
+  cursor: pointer;
+}
+.close-img {
+  width: 50px;
+}
+.move-right {
+  transition: all 1s ease-in-out;
+  /* transform: translateX(90%); */
+  width: 90%;
+}
+.w-90 {
+  width: 90%;
+}
+.w-10 {
+  width: 10%;
+}
+.jb-about {
+  position: relative;
+  top: 50px;
+  max-width: 100%;
+  height: 100vh;
+  width: 100%;
+  padding: 5%;
+}
+.jb-shop {
+  position: absolute;
+  top: 0;
+  max-width: 100%;
+  height: 100vh;
+  width: 100%;
+  padding: 5%;
+}
+.about-boxes img {
+  width: 100%;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.social-icon-top {
+  position: absolute;
+  right: 2%;
+  top: 0;
+}
+.contact-img {
+  width: 30px;
+}
+.jb-right {
+  overflow: hidden;
+}
+.social-icons a {
+  /* box-shadow: 0 2px 20px 7px red; */
+}
+.social-icons a img {
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+}
+nav {
+  background: repeating-linear-gradient(45deg, #ccc, transparent 100%);
+}
+.nav-link {
+  display: block;
+  padding: 0rem 1rem;
+  margin-bottom: 0;
+}
+/* recipe shop page */
+.recipe-title {
+  padding: 10px;
+  text-align: center;
+  min-height: 80px;
+  width: 25%;
+}
+.colmd3 {
+  width: 23%;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: 25px;
+  box-shadow: 0 15px 12px -10px #ccc;
+}
+.colmd3 .scrollbar-container {
+  height: 200px;
+  padding-right: 10px;
+}
+.recipe-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.recipe-head img {
+  width: 100px;
+}
+.recipe-app {
+  border: 1px solid #ccc;
+}
+.recipe-result {
+  padding: 0% 5% 5%;
+}
+/* recipe shop ends */
+
+/* Todo app css */
+.todo-app {
+  position: absolute;
+}
+.todo-app-wrap {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* pokimon css */
+.pokimon-main {
+}
+.pokimon-wrap {
+  height: 400px;
+  overflow-y: auto;
+}
+
+/* contact page css */
+#success-message {
+  opacity: 0;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+  padding: 0 20% 0 20%;
+}
+
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+.form-title {
+  padding: 25px;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-group .form-control {
+  -webkit-box-shadow: none;
+  border-bottom: 1px;
+  border-style: none none solid none;
+  border-radius: 0;
+  border-color: #000;
+}
+
+.form-group .form-control:focus {
+  box-shadow: none;
+  border-width: 0 0 2px 0;
+  border-color: #000;
+}
+
+textarea {
+  resize: none;
+}
+
+.btn-mod.btn-large {
+  height: auto;
+  padding: 13px 52px;
+  font-size: 15px;
+}
+
+.btn-mod.btn-border {
+  color: #000000;
+  border: 1px solid #000000;
+  background: transparent;
+}
+
+.btn-mod,
+a.btn-mod {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 4px 13px;
+  color: #fff;
+  background: rgba(34, 34, 34, 0.9);
+  border: 1px solid transparent;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -moz-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -o-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  -ms-transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+  transition: all 0.2s cubic-bezier(0, 0, 0.58, 1);
+}
+
+.btn-mod.btn-border:hover,
+.btn-mod.btn-border:active,
+.btn-mod.btn-border:focus,
+.btn-mod.btn-border:active:focus {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  outline: none;
+}
+.contact-form .form {
+  width: 50%;
+  margin: 0 auto;
+}
+.slider-content {
+  position: relative;
+  bottom: 70%;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.slider-content h2 {
+  color: white;
+  text-shadow: 0 0 10px black;
+  font-family: cursive;
+  font-size: 80px;
+  position: relative;
+}
+.slider-content h2::after {
+  content: "";
+  position: absolute;
+  left: 14%;
+  top: 100%;
+  width: 71%;
+  height: 3px;
+  background-color: orange;
+}
+.slider-content p {
+  font-size: 30px;
+  background: rgb(0, 0, 0, 0.2);
+  padding: 5px;
+  width: 72%;
+  color: white;
+  margin: 0 auto;
+}
+.gallery-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery-section h2 {
+  text-align: center;
+  padding: 50px;
+}
+.gallery-wrapper img {
+  width: 25%;
+  height: 300px;
+}
+
+.tasks-container > div > div {
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.tasks-container > div > div > img {
+  width: 30px;
+}
+.left-green-border {
+  border-left: 4px solid green;
+}
+.task-name {
+  margin-bottom: 20px;
+}
+.w-30 {
+  width: 30%;
+}
+.check-single {
+  width: 20%;
+}
+
+/* Expense Tracker css */
+
+:root {
+  --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+.main-tracker-container {
+  width: 35%;
+  margin: 50px auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 #ccc;
+}
+.tracker-main-heading {
+  background: #434e63;
+  color: white;
+  line-height: normal;
+  padding-top: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-family: cursive;
+}
+
+.main-tracker-container h3 {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  color: #555;
+}
+
+.main-tracker-container h4 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #555;
+}
+.main-tracker-container .inc-exp-container {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.inc-exp-container > div {
+  flex: 1;
+  text-align: center;
+}
+
+.inc-exp-container > div:first-of-type {
+  border-right: 1px solid #dedede;
+}
+
+.money {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 5px 0;
+}
+
+.money.plus {
+  color: #2ecc71;
+}
+
+.money.minus {
+  color: #c0392b;
+}
+
+label {
+  display: inline-block;
+  margin: 10px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #dedede;
+  border-radius: 2px;
+  display: block;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+}
+
+.main-tracker-container .btn {
+  cursor: pointer;
+  background-color: #434e63;
+  box-shadow: var(--box-shadow);
+  color: #fff;
+  border: 0;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.main-tracker-container .btn:focus,
+.delete-btn:focus {
+  outline: 0;
+}
+
+.main-tracker-container .list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.main-tracker-container .list li {
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.main-tracker-container .list li.plus {
+  border-right: 5px solid #07c255;
+}
+
+.main-tracker-container .list li.minus {
+  border-right: 5px solid rgb(197, 4, 4);
+}
+
+.main-tracker-container .delete-btn {
+  cursor: pointer;
+  background-color: #e74c3c;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-100%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.main-tracker-container .list li:hover .delete-btn {
+  opacity: 1;
+}
+
+/* End of Expense Tracker css */
+
+/* weather app css starts*/
+.weather-app {
+  background-image: url("../src/images/warm-bg.jpg");
+  background-size: contain;
+  background-position: bottom;
+  transition: all 0.4s ease;
+}
+
+.weather-app.warm {
+  background-image: url("../src/images/cold-bg.jpg");
+}
+
+.weather-app main {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.75)
+  );
+  padding: 25px;
+}
+
+.weather-app .search-box {
+  width: 40%;
+  margin: 50px auto 25px;
+}
+
+.weather-app .search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: -25px;
+
+  color: #313131;
+  font-size: 20px;
+
+  transition: 0.4s ease;
+
+  box-shadow: 0px 15px 10px -12px rgb(0 0 0 / 20%);
+  border-radius: 50px;
+}
+
+.weather-app .search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.weather-app .location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.weather-app .location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+
+.weather-app .weather-box {
+  text-align: center;
+}
+
+.weather-app .weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-app .weather-box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.city-not-found {
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  text-transform: capitalize;
+}
+.pos-abs-rain {
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  z-index: -1;
+}
+/* weather app css ends*/
+
+/* covid app css starts */
+.covid-container {
+  padding-top: 50px;
+}
+/* covid app css ends */
+.input-search {
+  width: 25%;
+}
+/* chart */
+#chartdiv {
+  width: 100%;
+  height: 100vh;
+}
+.h-100 {
+  height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .mob-handberger {
+    background: white;
+  }
+  .jb-slider img {
+    min-height: auto;
+  }
+  .colmd3 {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: auto;
+  }
+  .recipe-title {
+    width: 100%;
+  }
+  .btn-mod.btn-large {
+    padding: 6px 16px;
+    font-size: 11px;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+  .contact-form .form {
+    width: 100%;
+  }
+  .w-30 {
+    width: 100%;
+  }
+  .main-tracker-container {
+    width: 100%;
+  }
+  .weather-app {
+    background-size: cover;
+  }
+  .weather-app .search-box {
+    width: 100%;
+  }
+  .weather-app .search-box {
+    margin-top: 25px;
+  }
+  /* .weather-app main {
+    padding: 0;
+  } */
+  .weather-app .search-box .search-bar {
+    border-radius: 0;
+  }
+  .slider-content {
+    width: 100%;
+    bottom: 65%;
+  }
+  .jb-slider video {
+    height: 100%;
+  }
+  .todo-app-wrap {
+    width: 100%;
+  }
+  .input-search {
+    width: 100%;
+  }
+}
+
+/* track order */
+.track__order-wrapper {
+  width: 100%;
+}
+.track__order-form {
+  width: 50%;
+  margin: 50px auto;
+}
+.track__order-label {
+}
+.input__ordernumber {
+  box-shadow: none;
+  border-bottom: 1px !important;
+  border-style: none none solid none !important;
+  border-radius: 0 !important;
+  border-color: #000;
+  transition: all 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.input__ordernumber:focus {
+  box-shadow: none;
+  border-bottom: 1.3px !important;
+  border-style: none none solid none !important;
+  border-color: rgb(202, 0, 0);
+  outline: none;
+}
+.btn__ordernumber {
+  color: #000000;
+  border: 1px solid #000000;
+  background: transparent;
+  margin: 0 auto;
+  display: block;
+  padding: 5px 30px;
+}
+.btn__ordernumber:hover {
+  color: #fff;
+  border-color: #000;
+  background: #000;
+  outline: none;
+}
+.order__result {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+.order__result-success-note {
+  color: #07c255;
+}
+.order__result-failure-note {
+  color: red;
+}
+@media (max-width: 992px) {
+  .track__order-form {
+    width: 90%;
+  }
+}
